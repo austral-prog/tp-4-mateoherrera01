@@ -16,7 +16,7 @@ def line():
     y1= (coef_a*coef_x1+coef_b)
     y2= (coef_a*coef_x2+coef_b)
     
-    print(f"\t Y = {str(coef_a) + "X " + "+ " + str(coef_b)}\n")
+    print(f"\t Y = {coef_a}X + {coef_b}\n")
     
     print("Dados los siguientes puntos:" + "\t")
     
