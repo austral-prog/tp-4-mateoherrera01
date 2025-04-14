@@ -24,6 +24,6 @@ def line():
     p2= (coef_x2, y2)
     
     print("\t" + "P1 " + str(p1))
-    print("\t" + "P2" + str(p2))
+    print("\t" + "P2 " + str(p2))
     
     print(f"\nLa distancia entre ellos es: {math.dist(p1, p2)}")
