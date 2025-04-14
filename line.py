@@ -1,7 +1,7 @@
 def line():
     
     import math
-
+    
     coef_a=float(input("Ingrese el coeficiente A: "))
     coef_b=float(input("Ingrese el coeficiente B: "))
     coef_x1=float(input("Ingrese el coeficiente X1: "))
@@ -23,7 +23,7 @@ def line():
     p1= (coef_x1, y1)
     p2= (coef_x2, y2)
     
-    print("\t" + str(p1))
-    print("\t" + str(p2))
+    print("\t" + "P1 " + str(p1))
+    print("\t" + "P2" + str(p2))
     
     print(f"\nLa distancia entre ellos es: {math.dist(p1, p2)}")
